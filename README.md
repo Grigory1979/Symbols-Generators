@@ -1,1 +1,1 @@
-# Sympols-Generators
+# Symbols-Generators

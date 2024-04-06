@@ -42,7 +42,7 @@ export default class Team {
       }];
     }
   
-      [Symbol.iterator]() {
+     * [Symbol.iterator]() {
     let current = 0;
     const last = this.members.length;
     const persons = this.members;

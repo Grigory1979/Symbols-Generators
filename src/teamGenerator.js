@@ -46,9 +46,8 @@ export default class Team {
     let current = 0;
     const last = this.members.length;
     const persons = this.members;
-    for (let i = current; i < last; i++) {
+    for (let i = 0; i < current; i += 1) {
       yield persons[current];
-      current += 1;
     }
   }
 }
